@@ -1,0 +1,217 @@
+html{
+    font-size: 14.5px;
+ 
+}
+body{
+    width: 1200px;
+    height: auto;
+    background-color:rgb(240, 248, 255) ;
+    overflow:auto;
+    margin: auto;
+}
+.boxer{
+    background-color:transparent; 
+    width: 77.65rem;
+    transition-duration: 0.5s;
+    overflow: visible;
+    margin: auto;
+}
+.container{
+    height: 22.5rem;
+    opacity: 0;
+    background-color:transparent ;
+    width:77.65rem;
+    overflow: visible; 
+    display: flex;
+    position: relative;
+    top: 16vh;
+    padding-top: 10vh;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+.content{
+   
+    width:38.25rem;
+    overflow: visible;
+}
+.imgs{
+    width: 38.82rem;
+    height: 22.5rem;
+    z-index: 8;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    background-color: transparent;
+    overflow:visible;
+}
+#img1{
+    z-index: -20;
+}
+#img2{
+    z-index: -15;
+}
+#img3{
+    z-index: -10;
+}
+#img4{
+    z-index: -5;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+ .roboto-slab-head {
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 550px;
+        font-style: normal;
+        overflow: visible;
+        margin-top: 1.85rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.7rem;
+        color: rgb(49, 47, 47);
+        padding-left: 3rem;
+      }
+.roboto-slab-head:hover{
+    color:rgb(102, 98, 98);
+    transform: scale(1.03,1.01);
+    transition-duration: 0.16s;
+    transition-timing-function: linear;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:baseline;
+    height:15rem;
+    padding-right: 7.8rem;
+    padding-left: 0.98rem;
+}
+h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3.25rem;
+    color: rgb(49, 47, 47);
+    padding: 0%;
+    padding-right: 5rem;
+    padding-left: 1rem;
+    margin-bottom: 0%;
+    height:7.5rem;
+    width: 27.82rem;
+}
+#cloudstorage{
+    margin-bottom:4rem;
+}
+p{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: rgb(49, 47, 47);
+    padding: 0%;
+    margin-top: 3rem;
+    margin-bottom: 0%;
+    height: 7.5rem;
+}
+.linked{
+    height: 7.5rem;
+    margin-top: 3.1rem;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(49, 47, 47);
+}
+.forward{
+   margin-right: 1.464rem;
+   overflow: visible;
+   padding-bottom: 1rem;
+   transition: color 1s ease-in-out; 
+}
+h2:hover{
+    transform: scale(1.06);
+    transition-duration: 0.16s;
+}
+.forward:hover{
+    color: rgba(140, 140, 140, 0.916);
+    cursor: pointer;
+}
+button{
+    height:3.5rem;
+    font-size: 1.25rem;
+    width: 16.64rem;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 1.11rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+button:hover{
+    cursor: pointer;
+}
+.changecolor{
+    color:white
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+  .visible {
+    opacity: 1; 
+    padding-top: 0%;
+  }
+  /* @media only screen and (max-width: 1193px) {
+  html{
+    font-size: 13px;
+  }
+  body{
+    width: 1200;
+    padding-left:15vw;
+  }
+  }
+  @media only screen and (max-width: 1026px) {
+    html{
+      font-size: 12px;
+    }
+    body{
+        width: 1050px;
+        padding-left:15vw;
+    }
+    } */
+    @media only screen and (max-width: 426px) {
+        html{
+          font-size: 15px;
+        }
+        .content{
+            height: 45rem;
+        }
+        .container{
+            height: 45rem;
+        }
+        .imgs{
+            z-index: -200;
+            margin-top: 1rem;
+            position: relative;
+            top: 22.5rem;
+            left: -38.25rem;
+        }
+        img{
+            z-index: 200;
+        }
+        .linked{
+            color: rgb(7, 61, 208);
+        }
+        .boxer{
+            margin:0%;
+            width:38.25rem;
+        }
+        }
